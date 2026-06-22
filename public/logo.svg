@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Fundo circular navy -->
+  <circle cx="100" cy="100" r="100" fill="#1C2B4A"/>
+
+  <!-- Fluxo: Pedido → PrintFlow → Impressão -->
+  
+  <!-- Nó 1: Pedido (carrinho/documento) -->
+  <g transform="translate(40, 85)">
+    <rect x="0" y="0" width="28" height="32" rx="3" fill="white" opacity="0.9"/>
+    <rect x="4" y="8" width="20" height="3" rx="1" fill="#2563EB" opacity="0.7"/>
+    <rect x="4" y="14" width="16" height="2" rx="1" fill="#94A3B8" opacity="0.6"/>
+    <rect x="4" y="19" width="18" height="2" rx="1" fill="#94A3B8" opacity="0.6"/>
+  </g>
+
+  <!-- Seta 1 -->
+  <path d="M 75 101 L 90 101" stroke="#2563EB" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <polygon points="90,97 98,101 90,105" fill="#2563EB"/>
+
+  <!-- Nó 2: PrintFlow (engrenagem central) -->
+  <g transform="translate(100, 100)">
+    <!-- Círculo central -->
+    <circle cx="0" cy="0" r="18" fill="#2563EB"/>
+    <!-- Dentes da engrenagem -->
+    <rect x="-3" y="-22" width="6" height="8" rx="2" fill="#2563EB"/>
+    <rect x="-3" y="14" width="6" height="8" rx="2" fill="#2563EB"/>
+    <rect x="-22" y="-3" width="8" height="6" rx="2" fill="#2563EB"/>
+    <rect x="14" y="-3" width="8" height="6" rx="2" fill="#2563EB"/>
+    <!-- Centro -->
+    <circle cx="0" cy="0" r="8" fill="white"/>
+    <!-- Letra P -->
+    <text x="0" y="4" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1C2B4A">P</text>
+  </g>
+
+  <!-- Seta 2 -->
+  <path d="M 125 101 L 140 101" stroke="#2563EB" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <polygon points="140,97 148,101 140,105" fill="#2563EB"/>
+
+  <!-- Nó 3: Impressora -->
+  <g transform="translate(150, 88)">
+    <!-- Corpo da impressora -->
+    <rect x="0" y="8" width="32" height="20" rx="2" fill="white" opacity="0.9"/>
+    <!-- Topo -->
+    <rect x="2" y="4" width="28" height="6" rx="2" fill="white" opacity="0.7"/>
+    <!-- Papel saindo -->
+    <rect x="8" y="0" width="16" height="5" rx="1" fill="#2563EB" opacity="0.8"/>
+    <!-- Detalhes -->
+    <circle cx="8" cy="18" r="2" fill="#2563EB" opacity="0.6"/>
+    <rect x="14" y="16" width="12" height="2" rx="1" fill="#94A3B8" opacity="0.5"/>
+  </g>
+</svg>

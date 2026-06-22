@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Fundo arredondado navy -->
+  <rect width="32" height="32" rx="6" fill="#1C2B4A"/>
+
+  <!-- Engrenagem (dentes) -->
+  <rect x="13.5" y="2" width="5" height="6" rx="1.5" fill="#2563EB"/>
+  <rect x="13.5" y="24" width="5" height="6" rx="1.5" fill="#2563EB"/>
+  <rect x="2" y="13.5" width="6" height="5" rx="1.5" fill="#2563EB"/>
+  <rect x="24" y="13.5" width="6" height="5" rx="1.5" fill="#2563EB"/>
+  <!-- Dentes diagonais -->
+  <rect x="5" y="5" width="5" height="5" rx="1.5" fill="#2563EB" transform="rotate(45 7.5 7.5)"/>
+  <rect x="22" y="5" width="5" height="5" rx="1.5" fill="#2563EB" transform="rotate(45 24.5 7.5)"/>
+  <rect x="5" y="22" width="5" height="5" rx="1.5" fill="#2563EB" transform="rotate(45 7.5 24.5)"/>
+  <rect x="22" y="22" width="5" height="5" rx="1.5" fill="#2563EB" transform="rotate(45 24.5 24.5)"/>
+
+  <!-- Círculo da engrenagem -->
+  <circle cx="16" cy="16" r="10" fill="#2563EB"/>
+  <!-- Furo central -->
+  <circle cx="16" cy="16" r="6" fill="#1C2B4A"/>
+
+  <!-- Letra P -->
+  <text x="16" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="white">P</text>
+</svg>
